@@ -1,0 +1,100 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+  background-image: url(bg4.gif);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #e6dde0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 1000px;
+}
+
+.header h3 {
+  font-size: 24px;
+  color: #ff69b4;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 150px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 320px;
+}
+
+button:hover {
+  background-color: #ff1493;
+}
+
+form p {
+  font-size: 18px;
+  color: #333;
+}
+
+form input[type="radio"] + label {
+  font-size: 16px;
+  color: #333;
+}
+
+form input[type="radio"] {
+  transform: scale(1.5);
+}
+
+.form-select {
+  color: #333;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: none;
+}
+
+::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
